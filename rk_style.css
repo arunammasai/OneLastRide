@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+body									{ margin:0px; font: normal 12px Arial, Helvetica, sans-serif;  }
+
+img										{ border:none; }
+
+.clear									{ clear:both; margin:auto; }
+
+.header_main							{ width:100%; height:auto; /*background:url(../images/banner_imagepattern.png) repeat;*/ background:url(../images/pattern_bg.png) repeat;  }
+
+.rk_header								{ width:1000px; height:auto; margin:auto; background:url(../images/banner_imagebg.png) no-repeat;  }
+
+.rk_headtop								{ width:1000px; height:450px; float:left; }
+
+.rk_logo								{ width:210px; height:190px; float:left; padding:75px 0px 0px 75px; }
+
+.rk_headbottom							{ width:1000px; min-height:50px; float:left;   }
+
+.main_menu								{ width:1000px; min-height:50px; float:left; }
+
+.main_menu ul							{ margin:0px; padding:0px; list-style:none; display:block; }
+
+.main_menu ul li						{ float:left; font: bold 15px Tahoma, Geneva, sans-serif; color:#faf7f7; background:url(../images/manu_back.png) no-repeat; width:140px; height:50px; text-align:center;  margin:0px 13px;  }
+
+.main_menu ul li a						{ text-decoration:none; color:#fff; width:140px; height:35px; float:left; display:block;  padding-top:10px; }
+
+.main_menu ul li a:hover				{ width:140px; height:35px; background:url(../images/menu_hoverbg.png) no-repeat; }
+
+.main_menu ul li a.active				{ width:140px; height:35px; background:url(../images/menu_hoverbg.png) no-repeat; }
+
+.rk_maincontent							{ width:100%; height:auto; background:url(../images/main_backbg.png) repeat;  }
+
+.rk_centercontent						{ width:960px; height: auto; margin:auto; }
+
+.rk_contentleft							{ width:640px; height:auto; float:left; }
+
+.welcome_leftcontent					{ width:640px; height:auto; float:left; }
+
+.welcome_title							{ width:640px; height:35px; float:left; padding-top:10px;  }
+
+.welcome_title span						{ padding-left:10px; float:left; font:bold 13px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; }
+
+.welcome_desc							{ width:640px; height:auto; float:left; }
+
+.welcome_desc img						{ background:#9b9b9b; padding:5px; float:left; }
+
+.welcome_desc p							{ width:420px; height:auto; float:right; text-align:justify; font:normal 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:24px;  margin:0px; }
+
+.aboutus_content						{ width:395px; height:auto; float:left; margin-bottom:5px; }
+
+.aboutus_title							{ width:395px; height:25px; float:left; padding-top:10px;  }
+
+.aboutus_title span						{ padding-left:10px; float:left; font:bold 13px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; }
+
+.aboutus_desc							{ width:395px; height:auto; float:left; }
+
+.aboutus_desc p							{ width:395px; height:auto; float:left;  text-align:justify; font:normal 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:22px;  margin:0px; }
+
+.aboutus_readmore						{ width:395px; height:15px; float:left; text-align:right; }
+
+.aboutus_readmore a						{ text-decoration:none; font:bold 12px Tahoma, Geneva, sans-serif; color:#f20a0a; padding-right:5px;  }
+
+.aboutus_readmore a:hover				{ text-decoration:underline; color:#fff; }
+
+.ourclients_content						{ width:225px; height:auto; float:right; }
+
+.ourclients_title						{ width:225px; height:25px; float:left; padding-top:10px;  }
+
+.ourclients_title span					{ padding-left:10px; float:left; font:bold 13px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; }
+
+.ourclients_desc						{ width:225px; height:auto; float:left; }
+
+.ourclients_desc p						{ width:225px; height:auto; float:left;  text-align:justify; font:normal 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:20px;  margin:0px; }
+
+.ourclients_text						{ width:218px; float:left; padding:7px 0px 0px 7px; color:#ffb800; font: bold 11px Tahoma, Geneva, sans-serif; line-height:21px;   }
+
+.ourclients_readmore					{ width:218px; height:15px; float:left; text-align:right; }
+
+.ourclients_readmore a					{ text-decoration:none; font:bold 12px Tahoma, Geneva, sans-serif; color:#f20a0a; padding-right:5px;  }
+
+.ourclients_readmore a:hover			{ text-decoration:underline; color:#fff; }
+
+.rk_contentright						{ width:270px; height:auto; float:right;}
+
+.ourservice_title						{ width:270px; height:30px; float:left; padding-top:10px; background:url(../images/border_bottom.png) bottom no-repeat; }
+
+.ourservice_title span					{ padding-left:10px; float:left; font:bold 13px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; }
+
+.ourservice_list						{ width:270px; height:auto; float:left; }
+
+.ourservice_list ul						{ padding:0px; margin:0px; list-style:none; display:block; }
+
+.ourservice_list ul li					{ float:left; font:normal 13px Tahoma, Geneva, sans-serif; padding:5px 0px; background:url(../images/border_bottom.png) bottom no-repeat; height:17px; width:267px;   }
+
+.ourservice_list ul li a				{ text-decoration:none; color:#838282; padding:0px 10px;  }
+
+.ourservice_list ul li a:hover			{ text-decoration:none; }
+
+.ourservice_readmore					{ width:270px; height:15px; float:left; text-align:right; padding:5px 0px;  }
+
+.ourservice_readmore a					{ text-decoration:none; font:bold 12px Tahoma, Geneva, sans-serif; color:#f20a0a; padding-right:5px;  }
+
+.ourservice_readmore a:hover			{ text-decoration:underline; color:#fff; }
+
+.rk_footermain							{ width:100%; height:57px; background:url(../images/footerbg.png) repeat-x; }
+
+.rk_footer								{ width:900px; height:57px; margin:auto; }
+
+.rk_footer_menu							{ width:380px; height:17px; float: left; margin:20px 0px;  }
+
+.rk_footer_menu ul						{ padding:0px; margin:0px; list-style:none; display:block; }
+
+.rk_footer_menu ul li					{ float:left; font: normal 12px Tahoma, Geneva, sans-serif; }
+
+.rk_footer_menu ul li a					{ text-decoration:none; color: #000; padding:0px 1px 0px 1px; font:bold 11px Tahoma, Geneva, sans-serif; }
+
+.rk_footer_menu ul li a:hover			{ text-decoration:underline; }
+
+.rk_follows								{ width:180px; height:37px; float:left; margin:10px 0px; }
+
+.follows_image1							{ width:31px; height:31px; float:right; margin-left:15px;   }
+
+.rk_copyright							{ width:300px; height:17px; float:right; margin:20px 0px; font:bold 11px Tahoma, Geneva, sans-serif;  }
+
+.rk_copyright a							{ text-decoration:none; color:#040000; }
+
+.rk_copyright span						{ color:#f54f0d; }
+
+/* Inner page design*/
+
+.inner_aboutus							{ width:900px; height:auto; float:left; }
+
+.inneraboutus_title						{ width:900px; height:25px; float:left; padding-top:10px; border-bottom:1px dashed #e5e5e5; margin-bottom:5px;   }
+
+.inneraboutus_title span				{ padding-left:10px; float:left; font:bold 14px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; text-transform:uppercase;  }
+
+.inneraboutus_desc						{ width:900px; height:auto; float:left; text-align:justify; }
+
+.inneraboutus_desc p	  				{ width:900px; height:auto; float:left;  text-align:justify; font:normal 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:22px;  margin:0px; }
+
+.inneraboutus_desc center				{ color:#838282; font: italic 14px Tahoma, Geneva, sans-serif; line-height:20px; margin:5px 0px;   }
+
+.inneraboutus_desc center b				{ color:#ce000c; }
+
+
+
+.inner_services							{ width:900px; height:auto; float:left; }
+
+.in_servicestitle						{ width:900px; height:25px; float:left; padding-top:10px; border-bottom:1px dashed #e5e5e5; margin-bottom:5px;   padding-left:270px;}
+
+.in_servicestitle span					{ padding-left:10px; float:left; font:bold 14px  Arial, Helvetica, sans-serif; color:#fbf9f9; padding-top:2px; text-transform:uppercase;  }
+
+.in_services_desc						{ width:900px; height:auto; float:left; text-align:justify;  min-height:250px; padding-left:270px;}
+
+.in_services_desc p		  				{ width:900px; height:auto; float:left;  text-align:justify; font:normal 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:22px;  margin:0px; }
+
+.scope_desc								{ width:900px; height:auto; float:left; }
+
+.scope_title							{ width:900px; height:25px; float:left; color:#009018; font:bold 13px Tahoma, Geneva, sans-serif; padding-top:5px;  }
+
+.scope_innerpage						{ width:900px; height:auto; float:left; }
+
+.scope_category							{ width:900px; height:auto; float:left; padding-left:25px; margin-bottom:5px;   }
+
+.scope_category	ul						{ padding:0px; margin:0px; list-style:none; display:block; }
+
+.scope_category ul li					{ float:left; font:bold 12px Tahoma, Geneva, sans-serif; color:#838282; width:844px; padding:7px 28px; background:url(../images/tick_icon.png) left no-repeat; line-height:18px;     }
+
+.scope_desc span						{ width:500px; height:15px; float:left; padding-left:10px; color:#fded1b; font: bold 11px Tahoma, Geneva, sans-serif; }
+
+.in_services_desc_text					{ width:885px; height: auto; float:left; font:bold 12px Tahoma, Geneva, sans-serif; line-height:22px;  color:#838282; padding-left:15px;  }
+
+.electricals_text						{ width:900px; height: auto; float:left; font: bold  12px Tahoma, Geneva, sans-serif; line-height:22px; color:#838282; padding:3px 0px; }
+
+.intro_page								{ width:900px; height:auto; float: left; font:italic 14px Arial, Helvetica, sans-serif; line-height:22px;  color:#838282; }
+
+.elec_category							{ width:900px; height:auto; float:left; padding-left:25px; margin-bottom:5px; margin-left:10px;    }
+
+.elec_category	ul						{ padding:0px; margin:0px; list-style:none; display:block; }
+
+.elec_category ul li					{ float:left; font:bold 12px Tahoma, Geneva, sans-serif; color:#838282; width:844px; padding:7px 6px; list-style: disc;  }
+
+.nature_text							{ width:900px; height:50px; float:left; font:bold 13px Tahoma, Geneva, sans-serif; margin-top:5px;   }
+
+.title_naturetext						{ width:166px; height:25px; float:left; background:#b1b1b1; text-align:center; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; padding-top:5px;    }
+
+.productnature_image					{ width:900px; height:auto; float:left; }
+
+.nature_image1							{ width:95px; height:auto; float:left; margin:5px 25px;  }
+
+.nature_image1_picture1					{ width:95px; height:auto; float:left;  position:relative;   }
+
+.nature_image1_text1					{ width:95px; height:20px; bottom:0; float:left; background:#000; opacity:0.8; position:absolute; font:bold 12px Arial, Helvetica, sans-serif; color:#fff; text-align:center; padding-top:5px; left:0;   }
+
+.client_image1							{ width:900px; height:auto; float:left; }
+
+.client_imagetitle						{ width:900px; height:25px; float:left; color:#009018; font:bold 13px Tahoma, Geneva, sans-serif; padding-top:5px; border-bottom:1px dotted #fff; }
+
+.clientimage1_picture1					{ border: 5px solid #AEAEAE; float: left; height: 140px; padding: 3px; width:140px; margin:10px 12px; position:relative;   }
+
+
+.contact_page							{ width:900px; height:auto; float:left; }
+
+.contact_page_left						{ width:350px; height:auto; float:left;  }
+
+.contact_page_left p					{ font:bold 12px Tahoma, Geneva, sans-serif; color:#838282; line-height:22px; margin:5px 0px;  width:350px; height:auto;   }
+
+.contact_no								{ width:350px; height: auto; float:left; margin:5px 0px;  }
+
+.no_left								{ width:85px; float:left; font:bold 12px Arial, Helvetica, sans-serif; color:#838282;  }
+
+.no_left label							{ float: left; }
+
+.no_left span						{ width:5px; height:5px; float:left; padding:0px; color:#838282; }
+
+.no_right								{ width:265px; height:auto; float:right; text-align:left;  font:bold 12px Arial, Helvetica, sans-serif; color:#ce000c; }
+
+.contact_page_right						{ width:500px; height:auto; float:right;  }
+
+.contactpage_title						{ color:#fff; font:bold 13px Tahoma, Geneva, sans-serif; padding-top:5px; border-bottom:1px dotted #e5e5e5; padding-bottom:5px; }
+
+.conatctpage_labeltext					{ width:500px; height:auto; float:left; margin:7px 0px;  }
+
+.contact_name							{ width: auto; height:auto; float:left; font:bold 13px Tahoma, Geneva, sans-serif; color:#838282; padding-left:15px; padding-top:3px;    }
+
+.contactpage_textbox					{ width:300px; height:auto; float:right; margin-right:15px; color:white; }
+
+.cpagetextbox_text						{width:300px; height:25px; padding-left:10px; float:left; background:#e5e5e5;  border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; border:none;  }
+
+.contact_name span						{ color:#ce000c; width:5px; height:5px; float:right; }
+
+.conatctpage_submit						{ width:500px; height:auto; float: right; margin:7px 0px; text-align: center;   }
+
+.sub_button								{ width:85px; height:25px; background:#7f0007; color:#fff; font:bold 12px Tahoma, Geneva, sans-serif; border:none; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; padding-bottom:3px;   }
+
+.aboutus_image1							{ width:900px; height:auto; float:left; }
+
+.aboutus_imagetitle						{ width:900px; height:25px; float:left; color:#009018; font:bold 13px Tahoma, Geneva, sans-serif; padding-top:5px; border-bottom:1px dotted #fff; }
+
+.aboutusimage1_picture1					{ border: 5px solid #AEAEAE; float: left; height:140px; padding: 3px; width: 140px; margin:10px 12px; position:relative;   }
+
+.rk_footer_menu ul li a.active			{ color: #F20A0A; }
+
+
+.aboutus_image1_text1					{ width:122px; height:20px; bottom:0; float:left; background:#000; opacity:0.8; position:absolute; font:bold 12px Arial, Helvetica, sans-serif; color:#fff; text-align:center; padding-top:5px; left:0;   }
+
+.clientimage1_text1					{ width:122px; height:20px; bottom:0; float:left; background:#000; opacity:0.8; position:absolute; font:bold 12px Arial, Helvetica, sans-serif; color:#fff; text-align:center; padding-top:5px; left:0;   }
+
+
+
+
+
+
+
+
+
+
+
+
