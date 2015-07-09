@@ -1,0 +1,176 @@
+<?php
+	include_once('header.php');
+	include_once('database.php');
+	
+	//if(  empty($_SESSION['id_user']))
+		//header("Location: index.php");
+?>
+
+<script>
+	$(document).ready(function()
+	{
+		$('#menu li a').removeClass('active');
+		$('#menu #signup a').addClass('active');
+		$('body').animate({scrollTop :450}, 2000);
+		$( "#datepicker" ).datepicker();
+	});
+</script>
+  
+    <div class="rk_maincontent"><!--rk_maincontent div start-->
+    	<div class="rk_centercontent"><!--rk_centercontent div start-->
+			 <div class="inner_services"><!--inner_services div start--><br>			 <br><br><br>
+				<div class="in_services_desc"><!--in_services_desc div start-->
+					<p>
+							
+						<div class="scope_desc"><!--scope_desc div start-->
+							<div class="scope_title"><font size='4'>Add Customer</font></div>
+							 <div class="contact_page"><!--contact_page div start-->
+								
+								<div class="contact_page_left"><!--contact_page_right div satrt-->
+									<form class="custTable" action="registerCustomer.php" method ="post" name="custDetails">
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Customer Name<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="customername" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									  <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Smart Meter Id<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="smartmeterid" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+								    <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Product Type<span>*</span></div>
+										<div class="contactpage_textbox">
+										<select name="producttype" style="width: 310px;height:auto; float:left; font:bold 17px Tahoma, Geneva, sans-serif; color:#838282;"><option value='smartmeter'>Smart Meter</option>
+										<option value='waterdistributionmeter'>Water Distribution Meter</option></select></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Address line<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="addressline" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Street<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="addressstreet" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">City<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="addresscity" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									  <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">State<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="addressstate" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Country<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" name="country" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Pincode<span>*</span></div>
+										<div class="contactpage_textbox"><input type="number" name="addresspincode" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Currency<span>*</span></div>
+										<div class="contactpage_textbox">
+										<select name="currency" style="width: 310px;height:auto; float:left; font:bold 17px Tahoma, Geneva, sans-serif; color:#838282;"><option value='INR'>INR</option>
+										<option value='USD'>USD</option>
+										<option value='USD'>GBR</option>
+										<option value='USD'>EUR</option></select></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Start Date<span>*</span></div>
+										<div class="contactpage_textbox"><input type="text" id="datepicker" name="startdate" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									  <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="contact_name">Rounding<span>*</span></div>
+										<div class="contactpage_textbox"><input type="number" value="2" name="rounding" class="cpagetextbox_text" required /></div>
+									 </div><!--conatctpage_labeltext div end-->
+									 
+									 <div class="conatctpage_labeltext"><!--conatctpage_labeltext div start-->
+										<div class="conatctpage_submit"><input type="submit" name="submitBut" class="sub_button" value="submit"/></div>
+									  </div><!--conatctpage_labeltext div end-->
+									 </form>
+								</div><!--contact_page_right div end-->
+							 </div><!--contact_page div end-->
+										 
+						 </div><!--scope_desc div end-->
+					</p>
+				</div><!--in_services_desc div end-->
+		   
+				</div><!--inner_services div end-->
+           
+            <div class="clear"></div>
+        </div><!--rk_centercontent div end-->
+    <div class=" clear"></div>
+    </div><!--rk_maincontent div end-->
+	
+<?php include_once('footer.php'); ?>
+
+<?php
+if (isset($_POST['submitBut'])) {
+	//echo "<script>window.alert('Triggered')</script>";			
+//echo "Customer Name :.$customername.$addressline.$addressstreet.$addresscity.$addressstate.$addresspincode.$currency.
+//$startdate.$activationdate.$enddate.$lastbilldate.$status.$accountid.$accountbalance";
+
+$customername = $_POST["customername"];
+$password = "Dummy";//$_POST["password"];
+$smartmeterid = $_POST["smartmeterid"];
+$producttype = $_POST["producttype"];
+$addressline = $_POST["addressline"];
+$addressstreet = $_POST["addressstreet"];
+$addresscity = $_POST["addresscity"];
+$addressstate = $_POST["addressstate"];
+$addresspincode = $_POST["addresspincode"];
+$currency = $_POST["currency"];
+$startdate = $_POST["startdate"];
+$rounding = $_POST["rounding"];
+$country = $_POST["country"];
+
+//echo "<script>window.alert('Insert Begin.')</script>";	
+$sql = "INSERT INTO customer (Name,password,AddressLine,AddressStreet,AddressCity,AddressState,AddressPinCode,Currency,StartDate,AddressCountry,AccountId) VALUES
+('$customername','$password','$addressline','$addressstreet','$addresscity','$addressstate','$addresspincode',
+'$currency',STR_TO_DATE('$startdate', '%m/%d/%Y'),'$country','$smartmeterid')";
+//echo "<script>window.alert('Insert SQL ')</script>";	
+ if(mysqli_query($conn, $sql) === TRUE)
+{
+	//echo "<script>window.alert('Inside If')</script>";	
+	$last_id = mysqli_insert_id($conn);
+	$query	=	"INSERT INTO account (AccountId,RoundTo) VALUES ('$smartmeterid','$rounding')";
+	$equipquery = "INSERT INTO equipment(EquipmentId, AccountId, EquipmentType,  Status) 
+					VALUES ('$smartmeterid','$smartmeterid','$producttype','Active')";
+	
+	if(mysqli_query($conn, $query) === TRUE){
+	//echo "<script>window.alert('Second')</script>";			
+		if(mysqli_query($conn, $equipquery) === TRUE){
+		 echo "<script>window.alert('Customer Added Successfully.')</script>";	
+	    } else{
+		 echo "<script>window.alert('Customer Add Failed. Please verify the input data.')</script>";
+	    }
+    }
+} 
+else
+{
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+/*$r = mysqli_query($dbc,$sql);
+if(mysqli_affected_rows($dbc) ==1){
+ echo "<script>window.alert('Customer Added ...')</script>";
+}
+else
+{	
+ echo "Error is :".mysqli_connect_error();
+ echo "Error is :".mysqli_connect_errno();
+}*/
+mysqli_close($conn);
+}
+
+?>
